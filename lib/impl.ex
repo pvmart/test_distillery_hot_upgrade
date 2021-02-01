@@ -15,4 +15,10 @@ defmodule Impl do
   def hello do
     :world
   end
+
+  def impl(mod) do
+    :impl
+    |> Application.get_env(mod)
+    |> Keyword.fetch!(:impl)
+  end
 end
