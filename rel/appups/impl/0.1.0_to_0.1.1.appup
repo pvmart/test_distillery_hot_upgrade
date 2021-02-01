@@ -1,0 +1,9 @@
+{"0.1.1",
+ [{"0.1.0",
+   [{add_module,'Elixir.Mod.C'},
+    {add_module,'Elixir.Mod.D'},
+    {load_module,'Elixir.Bubu',[]}]}],
+ [{"0.1.0",
+   [{delete_module,'Elixir.Mod.C'},
+    {delete_module,'Elixir.Mod.D'},
+    {load_module,'Elixir.Bubu',[]}]}]}.
